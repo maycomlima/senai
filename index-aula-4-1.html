@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title></title>
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="app/js/index-controller-4.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="app/css/media-queries.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+
+</head>
+
+<body ng-app="projetosan">
+
+<div ng-controller="IndexController" class="container">
+
+<div class="panel panel-default">
+    <div class="panel-heading">Cadastro de pessoa</div>
+    <div class="panel-body">
+        <form novalidate name="myForm" ng-submit="salvar()">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+
+                        <label for="itNome">
+                            <label for="itNome">Nome</label>
+                            <i style="color: red" class="fa fa-asterisk"></i>
+                        </label>
+
+                        <input type="text"
+                                class="form-control"
+                                name="itNome"
+                                id="itNome"
+                                ng-model="entidade.nome"
+                                required
+                                ng-minlength="3"
+                                ng-maxlength="15"/>
+
+                        <div class="help-block" ng-messages="myForm.itNome.$error"
+                             ng-show="myForm.itNome.$dirty">
+                            <div ng-messages-include="app/template/mensagens.html"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+
+                        <label for="itEmail">
+                            <label for="itEmail">Email</label>
+                            <i style="color: red" class="fa fa-asterisk"></i>
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               name="itEmail"
+                               id="itEmail"
+                               ng-model="entidade.email"
+                               required
+                               ng-minlength="5"
+                               ng-maxlength="40">
+
+                        <div class="help-block" ng-messages="myForm.itEmail.$error"
+                             ng-show="myForm.itEmail.$dirty">
+                            <div ng-messages-include="app/template/mensagens.html"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="itNascimento">Dt Nascimento</label>
+                    <input type="date"
+                           class="form-control"
+                           id="itNascimento"
+                           name="idNascimento"
+                           ng-model="entidade.nascimento"
+                           required>
+
+                    <div class="help-block" ng-messages="myForm.idNascimento.$error"
+                         ng-show="myForm.idNascimento.$dirty">
+                        <div ng-messages-include="app/template/mensagens.html"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="row">
+                <div class="pull-right">
+                    <div class="col-sm-12">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fa fa-save"></i>
+                            Adicionar
+                        </button>
+
+                        <button class="btn btn-warning" type="button" ng-click="limpar()">
+                            <i class="fa fa-eraser"></i>
+                            Limpar
+                        </button>
+
+                        <button class="btn btn-danger" type="button" ng-click="limpar()">
+                            <i class="fa fa-remove"></i>
+                            Cancelar
+                        </button>
+
+                        <button class="btn btn-info" type="button" ng-click="limpar()">
+                            <i class="fa fa-search"></i>
+                            Pesquisar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

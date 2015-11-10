@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app/js/index-controller-2.js"></script>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+
+<div ng-controller="IndexController" class="container">
+
+    <div class="row">
+
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="tiNome">Nome</label>
+                <input type="text" class="form-control" id="tiNome" placeholder="Nome">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="tiEmail">E-mail</label>
+                <input type="email" class="form-control" id="tiEmail" placeholder="E-mail">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="tiTelefone">Telefone</label>
+                <input type="email" class="form-control" id="tiTelefone" placeholder="Telefone">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div ng-controller="IndexController" class="container">
+    <button class="btn btn-primary">
+        <i class="fa fa-save"></i>
+        Salvar
+    </button>
+    <button class="btn btn-warning">
+        <i class="fa fa-eraser"></i>
+        Limpar
+    </button>
+    <button class="btn btn-danger">
+        <i class="fa fa-remove"></i>
+        Excluir
+    </button>
+</div>
+
+
+
+</body>
+</html>
