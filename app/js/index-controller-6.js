@@ -1,41 +1,42 @@
 /**
  * Created by Maycom on 10/11/2015.
  */
-angular.module('projetosan',['ngMessages','ui.growl']);
+angular.module('projetosan', ['ui.growl', 'ui.grid']);
 
 angular.module('projetosan')
     .controller('IndexController', IndexController);
 
-IndexController.$inject = ['$scope','AlertService','$filter'];
+function IndexController($scope, AlertService) {
 
-function IndexController($scope, AlertService, $filter){
-
-    $scope.entidade = {};
     $scope.listaDePessoas = [];
+    $scope.entidade = {};
+
     $scope.limpar = limpar;
     $scope.salvar = salvar;
 
-    function salvar(){
-        if($scope.myForm.$invalid === true){
-            AlertService.showAlert('Observe','Verifique os campos inválidos',7000);
-            AlertService.showAlert('Observe','Verifique os campos inválidos');
-            return;
-        }
+    $scope.gridStyle = {};
+    $scope.gridStyle.width = '100%';
+    $scope.gridStyle.height = '200px';
 
-        //FORMATANDO A DATA E COLOCANDO NO OBJETO
-        $scope.entidade.nascimentoFormatado= $filter('date')($scope.entidade.nascimento, 'dd/MM/yyyy');
+
+    $scope.gridOptions = {
+        data: 'listaDePessoas',
+        columnDefs: [
+            {name: 'Pessoa', field: 'nome', width: 150},
+            {name: 'Email', field: 'email', width: 250}
+        ],
+        enableRowSelection:true,
+        enableColumnMenu:false
+    };
+
+    function salvar() {
         $scope.listaDePessoas.push($scope.entidade);
-        $scope.dataStr = $filter('date')($scope.entidade.nascimento, 'dd/MM/yyyy');
-
         limpar();
 
-        AlertService.showOk('Sucesso','Registro adicionado com sucesso');
-
-        return;
+        AlertService.showOk('Ok', 'Registro salvo com sucesso');
     }
 
-    function limpar(){
+    function limpar() {
         $scope.entidade = {};
-        $scope.myForm.$setPristine();
     }
 }
