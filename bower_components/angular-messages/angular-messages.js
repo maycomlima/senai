@@ -20,10 +20,10 @@ var jqLite = angular.element;
  *
  * The `ngMessages` module provides enhanced support for displaying messages within templates
  * (typically within forms or when rendering message objects that return key/value data).
- * Instead of relying on JavaScript code and/or complex ng-if statements within your form template to
+ * Instead of relying on JavaScript code and/or complex ng-if statements within your form templates to
  * show and hide error messages specific to the state of an input field, the `ngMessages` and
  * `ngMessage` directives are designed to handle the complexity, inheritance and priority
- * sequencing based on the order of how the messages are defined in the template.
+ * sequencing based on the order of how the messages are defined in the templates.
  *
  * Currently, the ngMessages module only contains the code for the `ngMessages`, `ngMessagesInclude`
  * `ngMessage` and `ngMessageExp` directives.
@@ -32,7 +32,7 @@ var jqLite = angular.element;
  * The `ngMessages` directive listens on a key/value collection which is set on the ngMessages attribute.
  * Since the {@link ngModel ngModel} directive exposes an `$error` object, this error object can be
  * used with `ngMessages` to display control error messages in an easier way than with just regular angular
- * template directives.
+ * templates directives.
  *
  * ```html
  * <form name="myForm">
@@ -60,10 +60,10 @@ var jqLite = angular.element;
  * ```
  *
  * Then the `required` message will be displayed first. When required is false then the `minlength` message
- * will be displayed right after (since these messages are ordered this way in the template HTML code).
+ * will be displayed right after (since these messages are ordered this way in the templates HTML code).
  * The prioritization of each message is determined by what order they're present in the DOM.
  * Therefore, instead of having custom JavaScript code determine the priority of what errors are
- * present before others, the presentation of the errors are handled within the template.
+ * present before others, the presentation of the errors are handled within the templates.
  *
  * By default, ngMessages will only display one error at a time. However, if you wish to display all
  * messages then the `ng-messages-multiple` attribute flag can be used on the element containing the
@@ -79,11 +79,11 @@ var jqLite = angular.element;
  *
  * ## Reusing and Overriding Messages
  * In addition to prioritization, ngMessages also allows for including messages from a remote or an inline
- * template. This allows for generic collection of messages to be reused across multiple parts of an
+ * templates. This allows for generic collection of messages to be reused across multiple parts of an
  * application.
  *
  * ```html
- * <script type="text/ng-template" id="error-messages">
+ * <script type="text/ng-templates" id="error-messages">
  *   <div ng-message="required">This field is required</div>
  *   <div ng-message="minlength">This field is too short</div>
  * </script>
@@ -94,12 +94,12 @@ var jqLite = angular.element;
  * ```
  *
  * However, including generic messages may not be useful enough to match all input fields, therefore,
- * `ngMessages` provides the ability to override messages defined in the remote template by redefining
+ * `ngMessages` provides the ability to override messages defined in the remote templates by redefining
  * them within the directive container.
  *
  * ```html
- * <!-- a generic template of error messages known as "my-custom-messages" -->
- * <script type="text/ng-template" id="my-custom-messages">
+ * <!-- a generic templates of error messages known as "my-custom-messages" -->
+ * <script type="text/ng-templates" id="my-custom-messages">
  *   <div ng-message="required">This field is required</div>
  *   <div ng-message="minlength">This field is too short</div>
  * </script>
@@ -115,9 +115,9 @@ var jqLite = angular.element;
  *            required />
  *   </label>
  *   <!-- any ng-message elements that appear BEFORE the ng-messages-include will
- *        override the messages present in the ng-messages-include template -->
+ *        override the messages present in the ng-messages-include templates -->
  *   <div ng-messages="myForm.myEmail.$error" role="alert">
- *     <!-- this required message has overridden the template message -->
+ *     <!-- this required message has overridden the templates message -->
  *     <div ng-message="required">You did not enter your email address</div>
  *
  *     <!-- this is a brand new message and will appear last in the prioritization -->
@@ -130,7 +130,7 @@ var jqLite = angular.element;
  * ```
  *
  * In the example HTML code above the message that is set on required will override the corresponding
- * required message defined within the remote template. Therefore, with particular input fields (such
+ * required message defined within the remote templates. Therefore, with particular input fields (such
  * email addresses, date fields, autocomplete inputs, etc...), specialized error messages can be applied
  * while more generic messages can be used to handle other, more general input errors.
  *
@@ -262,10 +262,10 @@ angular.module('ngMessages', [])
     * `ngMessages` manages the state of internal messages within its container element. The internal
     * messages use the `ngMessage` directive and will be inserted/removed from the page depending
     * on if they're present within the key/value object. By default, only one message will be displayed
-    * at a time and this depends on the prioritization of the messages within the template. (This can
+    * at a time and this depends on the prioritization of the messages within the templates. (This can
     * be changed by using the `ng-messages-multiple` or `multiple` attribute on the directive container.)
     *
-    * A remote template can also be used to promote message reusability and messages can also be
+    * A remote templates can also be used to promote message reusability and messages can also be
     * overridden.
     *
     * {@link module:ngMessages Click here} to learn more about `ngMessages` and `ngMessage`.
@@ -491,8 +491,8 @@ angular.module('ngMessages', [])
     * @scope
     *
     * @description
-    * `ngMessagesInclude` is a directive with the purpose to import existing ngMessage template
-    * code from a remote template and place the downloaded template code into the exact spot
+    * `ngMessagesInclude` is a directive with the purpose to import existing ngMessage templates
+    * code from a remote templates and place the downloaded templates code into the exact spot
     * that the ngMessagesInclude directive is placed within the ngMessages container. This allows
     * for a series of pre-defined messages to be reused and also allows for the developer to
     * determine what messages are overridden due to the placement of the ngMessagesInclude directive.
@@ -512,7 +512,7 @@ angular.module('ngMessages', [])
     *
     * {@link module:ngMessages Click here} to learn more about `ngMessages` and `ngMessage`.
     *
-    * @param {string} ngMessagesInclude|src a string value corresponding to the remote template.
+    * @param {string} ngMessagesInclude|src a string value corresponding to the remote templates.
     */
    .directive('ngMessagesInclude',
      ['$templateRequest', '$document', '$compile', function($templateRequest, $document, $compile) {

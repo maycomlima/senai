@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+
+    <script src="app/js/index-controller-7.js"></script>
+    <script src="app/js/service/alert-service.js"></script>
+
+</head>
+<body ng-app="projetosan">
+
+<div ng-controller="IndexController" class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <!--<div class="form-group">
+                <label>Nome</label>
+                <input type="text"
+                       class="form-control"
+                       ng-model="entidade.nome">
+            </div>-->
+            <md-input-container>
+                <label>Nome</label>
+                <input ng-model="entidade.nome">
+            </md-input-container>
+        </div>
+
+        <div class="col-sm-4">
+            <!--<div class="form-group">
+                <label>E-mail</label>
+                <input type="text"
+                       class="form-control"
+                       ng-model="entidade.email">
+            </div>-->
+
+            <md-input-container>
+                <label>E-mail</label>
+                <input ng-model="entidade.email">
+            </md-input-container>
+        </div>
+
+        <div class="col-sm-4">
+            <!--<div class="form-group">
+                <label>Cor</label>
+                <input type="text"
+                       class="form-control"
+                       ng-model="entidade.cor">
+            </div>-->
+
+            <md-input-container>
+                <label>Cor</label>
+                <input ng-model="entidade.cor">
+            </md-input-container>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div ui-grid="gridOptions"
+                 ui-grid-resize-columns
+                 ng-style="gridStyle">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <!--<button type="button"
+                    class="btn btn-primary"
+                    ng-click="salvar()">
+                <i class="fa fa-save"></i>
+                Salvar
+            </button>
+            <button type="button"
+                    class="btn btn-warning"
+                    ng-click="limpar()">
+                <i class="fa fa-eraser"></i>
+                Limpar
+            </button>-->
+
+            <md-button class="md-raised md-primary"
+                       ng-click="salvar()"
+                       aria-label="Salvar">
+                <md-icon md-font-icon="fa fa-save"></md-icon>
+                Salvar
+            </md-button>
+            <md-button class="md-raised"
+                       ng-click="limpar()"
+                       aria-label="Limpar">
+                Limpar
+            </md-button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

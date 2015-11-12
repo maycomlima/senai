@@ -1,4 +1,4 @@
-angular.module('ui.growl', ['template/growl/box.html'])
+angular.module('ui.growl', ['templates/growl/box.html'])
 
 .controller('GrowlController', ['$scope', '$timeout', 'growl', 'model', function($scope, $timeout, growl, model) {
     var currentTimeout;
@@ -184,7 +184,7 @@ angular.module('ui.growl', ['template/growl/box.html'])
                 values.push(angular.isString(value) ? $injector.get(value) : $injector.invoke(value));
             });
 
-            keys.push('$template');
+            keys.push('$templates');
             values.push(templatePromise);
 
             return $q.all(values).then(function(values) {
@@ -206,7 +206,7 @@ angular.module('ui.growl', ['template/growl/box.html'])
                 return new Growl(opts);
             },
 
-            // creates a new `Growl` tied to the default box template and controller.
+            // creates a new `Growl` tied to the default box templates and controller.
             //
             // * `result`: the result to pass to the `close` method of the dialog when the button is clicked
             // * `label`: the label of the button
@@ -223,7 +223,7 @@ angular.module('ui.growl', ['template/growl/box.html'])
                 }
 
                 return new Growl({
-                    templateUrl: 'template/growl/box.html',
+                    templateUrl: 'templates/growl/box.html',
                     controller: 'GrowlController',
                     resolve: {
                         model: function() {
@@ -240,9 +240,9 @@ angular.module('ui.growl', ['template/growl/box.html'])
     }];
 });
 
-angular.module("template/growl/box.html", []).run(["$templateCache", function($templateCache) {
+angular.module("templates/growl/box.html", []).run(["$templateCache", function($templateCache) {
 
-    $templateCache.put("template/growl/box.html",
+    $templateCache.put("templates/growl/box.html",
 
     "<div class=\"growl-item-wrapper {{showclass}}\" style=\"\"> \n" + "  <div class=\"growl-item\"> \n" + "    <div class=\"growl-close\" ng-click=\"close()\">&times;</div> \n" + "    <div> \n" + "      <b ng-show=\"(title.length > 0 )\">{{title}}</b> \n" + "      <p>{{text}}</p> \n" + "    </div> \n" + "    <div style=\"clear:both\"></div> \n" + "  </div> \n" + "</div> \n" +
 

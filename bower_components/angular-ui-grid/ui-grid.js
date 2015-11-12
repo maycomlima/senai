@@ -139,7 +139,7 @@ angular.module('ui.grid').directive('uiGridCell', ['$compile', '$parse', 'gridUt
             });
           }
 
-          // If the grid controller is present, use it to get the compiled cell template function
+          // If the grid controller is present, use it to get the compiled cell templates function
           if (uiGridCtrl && $scope.col.compiledElementFn) {
              compileTemplate();
           }
@@ -1060,7 +1060,7 @@ function ($timeout, gridUtil, uiGridConstants, uiGridColumnMenuService, $documen
             };
             $scope.getSortDirectionAriaLabel = function(){
               var col = $scope.col;
-              //Trying to recreate this sort of thing but it was getting messy having it in the template.
+              //Trying to recreate this sort of thing but it was getting messy having it in the templates.
               //Sort direction {{col.sort.direction == asc ? 'ascending' : ( col.sort.direction == desc ? 'descending':'none')}}. {{col.sort.priority ? {{columnPriorityText}} {{col.sort.priority}} : ''}
               var sortDirectionText = col.sort.direction === uiGridConstants.ASC ? $scope.i18n.sort.ascending : ( col.sort.direction === uiGridConstants.DESC ? $scope.i18n.sort.descending : $scope.i18n.sort.none);
               var label = sortDirectionText;
@@ -2500,7 +2500,7 @@ function ($compile, $timeout, $window, $document, gridUtil, uiGridConstants, i18
 
               if (grid){
                 var idRegex = new RegExp(grid.id.toString());
-                //If the grid id hasn't been appended already in the template declaration
+                //If the grid id hasn't been appended already in the templates declaration
                 if (!idRegex.test(val)){
                   val = grid.id.toString() + '-' + val;
                 }
@@ -2788,7 +2788,7 @@ function ($compile, $timeout, $window, $document, gridUtil, uiGridConstants, i18
             $scope.grid = uiGridCtrl.grid;
             $scope.colContainer = containerCtrl.colContainer;
 
-            // Function for attaching the template to this scope
+            // Function for attaching the templates to this scope
             var clonedElement, cloneScope;
             function compileTemplate() {
               $scope.row.getRowTemplateFn.then(function (compiledElementFn) {
@@ -2814,10 +2814,10 @@ function ($compile, $timeout, $window, $document, gridUtil, uiGridConstants, i18
               });
             }
 
-            // Initially attach the compiled template to this scope
+            // Initially attach the compiled templates to this scope
             compileTemplate();
 
-            // If the row's compiled element function changes, we need to replace this element's contents with the new compiled template
+            // If the row's compiled element function changes, we need to replace this element's contents with the new compiled templates
             $scope.$watch('row.getRowTemplateFn', function (newFunc, oldFunc) {
               if (newFunc !== oldFunc) {
                 compileTemplate();
@@ -7407,7 +7407,7 @@ angular.module('ui.grid')
    *  ]
    * };</pre>
    *
-   * You can then use this within your html template, when you define your grid:
+   * You can then use this within your html templates, when you define your grid:
    * <pre>&lt;div ui-grid="gridOptions"&gt;&lt;/div&gt;</pre>
    *
    * To provide default options for all of the grids within your application, use an angular
@@ -7590,7 +7590,7 @@ angular.module('ui.grid')
        * @name showHeader
        * @propertyOf ui.grid.class:GridOptions
        * @description True by default. When set to false, this setting will replace the
-       * standard header template with '<div></div>', resulting in no header being shown.
+       * standard header templates with '<div></div>', resulting in no header being shown.
        */
       baseOptions.showHeader = typeof(baseOptions.showHeader) !== "undefined" ? baseOptions.showHeader : true;
 
@@ -7821,18 +7821,18 @@ angular.module('ui.grid')
        * @name headerTemplate
        * @propertyOf ui.grid.class:GridOptions
        * @description Null by default. When provided, this setting uses a custom header
-       * template, rather than the default template. Can be set to either the name of a template file:
+       * templates, rather than the default templates. Can be set to either the name of a templates file:
        * <pre>  $scope.gridOptions.headerTemplate = 'header_template.html';</pre>
        * inline html
        * <pre>  $scope.gridOptions.headerTemplate = '<div class="ui-grid-top-panel" style="text-align: center">I am a Custom Grid Header</div>'</pre>
-       * or the id of a precompiled template (TBD how to use this).
+       * or the id of a precompiled templates (TBD how to use this).
        * </br>Refer to the custom header tutorial for more information.
        * If you want no header at all, you can set to an empty div:
        * <pre>  $scope.gridOptions.headerTemplate = '<div></div>';</pre>
        *
        * If you want to only have a static header, then you can set to static content.  If
        * you want to tailor the existing column headers, then you should look at the
-       * current 'ui-grid-header.html' template in github as your starting point.
+       * current 'ui-grid-header.html' templates in github as your starting point.
        *
        */
       baseOptions.headerTemplate = baseOptions.headerTemplate || null;
@@ -7843,9 +7843,9 @@ angular.module('ui.grid')
        * @propertyOf ui.grid.class:GridOptions
        * @description (optional) ui-grid/ui-grid-footer by default.  This footer shows the per-column
        * aggregation totals.
-       * When provided, this setting uses a custom footer template. Can be set to either the name of a template file 'footer_template.html', inline html
+       * When provided, this setting uses a custom footer templates. Can be set to either the name of a templates file 'footer_template.html', inline html
        * <pre>'<div class="ui-grid-bottom-panel" style="text-align: center">I am a Custom Grid Footer</div>'</pre>, or the id
-       * of a precompiled template (TBD how to use this).  Refer to the custom footer tutorial for more information.
+       * of a precompiled templates (TBD how to use this).  Refer to the custom footer tutorial for more information.
        */
       baseOptions.footerTemplate = baseOptions.footerTemplate || 'ui-grid/ui-grid-footer';
 
@@ -7853,7 +7853,7 @@ angular.module('ui.grid')
        * @ngdoc string
        * @name gridFooterTemplate
        * @propertyOf ui.grid.class:GridOptions
-       * @description (optional) ui-grid/ui-grid-grid-footer by default. This template by default shows the
+       * @description (optional) ui-grid/ui-grid-grid-footer by default. This templates by default shows the
        * total items at the bottom of the grid, and the selected items if selection is enabled.
        */
       baseOptions.gridFooterTemplate = baseOptions.gridFooterTemplate || 'ui-grid/ui-grid-grid-footer';
@@ -7863,12 +7863,12 @@ angular.module('ui.grid')
        * @name rowTemplate
        * @propertyOf ui.grid.class:GridOptions
        * @description 'ui-grid/ui-grid-row' by default. When provided, this setting uses a
-       * custom row template.  Can be set to either the name of a template file:
+       * custom row templates.  Can be set to either the name of a templates file:
        * <pre> $scope.gridOptions.rowTemplate = 'row_template.html';</pre>
        * inline html
        * <pre>  $scope.gridOptions.rowTemplate = '<div style="background-color: aquamarine" ng-click="grid.appScope.fnOne(row)" ng-repeat="col in colContainer.renderedColumns track by col.colDef.name" class="ui-grid-cell" ui-grid-cell></div>';</pre>
-       * or the id of a precompiled template (TBD how to use this) can be provided.
-       * </br>Refer to the custom row template tutorial for more information.
+       * or the id of a precompiled templates (TBD how to use this) can be provided.
+       * </br>Refer to the custom row templates tutorial for more information.
        */
       baseOptions.rowTemplate = baseOptions.rowTemplate || 'ui-grid/ui-grid-row';
 
@@ -8969,7 +8969,7 @@ angular.module('ui.grid')
           var filter = getFilterIfExists(this.col.cellFilter);
           if (filter) { // Check if this is filter name or a filter string
             value = filter(value);
-          } else { // We have the template version of a filter so we need to parse it apart
+          } else { // We have the templates version of a filter so we need to parse it apart
             // Get the filter params out using a regex
             // Test out this regex here https://regex101.com/r/rC5eR5/2
             var re = /([^:]*):([^:]*):?([\s\S]+)?/;
@@ -9194,7 +9194,7 @@ angular.module('ui.grid')
                 },
                 function (res) {
                   // Todo handle response error here?
-                  throw new Error("Couldn't fetch/use row template '" + grid.options.rowTemplate + "'");
+                  throw new Error("Couldn't fetch/use row templates '" + grid.options.rowTemplate + "'");
                 });
           }
 
@@ -9258,7 +9258,7 @@ angular.module('ui.grid')
 
           var templateGetPromises = [];
 
-          // Abstracts the standard template processing we do for every template type.
+          // Abstracts the standard templates processing we do for every templates type.
           var processTemplate = function( templateType, providedType, defaultTemplate, filterType, tooltipType ) {
             if ( !colDef[templateType] ){
               col[providedType] = defaultTemplate;
@@ -9297,8 +9297,8 @@ angular.module('ui.grid')
            * @ngdoc property
            * @name cellTemplate
            * @propertyOf ui.grid.class:GridOptions.columnDef
-           * @description a custom template for each cell in this column.  The default
-           * is ui-grid/uiGridCell.  If you are using the cellNav feature, this template
+           * @description a custom templates for each cell in this column.  The default
+           * is ui-grid/uiGridCell.  If you are using the cellNav feature, this templates
            * must contain a div that can receive focus.
            *
            */
@@ -9309,7 +9309,7 @@ angular.module('ui.grid')
            * @ngdoc property
            * @name headerCellTemplate
            * @propertyOf ui.grid.class:GridOptions.columnDef
-           * @description a custom template for the header for this column.  The default
+           * @description a custom templates for the header for this column.  The default
            * is ui-grid/uiGridHeaderCell
            *
            */
@@ -9319,7 +9319,7 @@ angular.module('ui.grid')
            * @ngdoc property
            * @name footerCellTemplate
            * @propertyOf ui.grid.class:GridOptions.columnDef
-           * @description a custom template for the footer for this column.  The default
+           * @description a custom templates for the footer for this column.  The default
            * is ui-grid/uiGridFooterCell
            *
            */
@@ -9329,7 +9329,7 @@ angular.module('ui.grid')
            * @ngdoc property
            * @name filterHeaderTemplate
            * @propertyOf ui.grid.class:GridOptions.columnDef
-           * @description a custom template for the filter input.  The default is ui-grid/ui-grid-filter
+           * @description a custom templates for the filter input.  The default is ui-grid/ui-grid-filter
            *
            */
           processTemplate( 'filterHeaderTemplate', 'providedFilterHeaderTemplate', 'ui-grid/ui-grid-filter' );
@@ -9344,32 +9344,32 @@ angular.module('ui.grid')
         rowTemplateAssigner: function rowTemplateAssigner(row) {
           var grid = this;
 
-          // Row has no template assigned to it
+          // Row has no templates assigned to it
           if (!row.rowTemplate) {
-            // Use the default row template from the grid
+            // Use the default row templates from the grid
             row.rowTemplate = grid.options.rowTemplate;
 
-            // Use the grid's function for fetching the compiled row template function
+            // Use the grid's function for fetching the compiled row templates function
             row.getRowTemplateFn = grid.getRowTemplateFn;
           }
-          // Row has its own template assigned
+          // Row has its own templates assigned
           else {
-            // Create a promise for the compiled row template function
+            // Create a promise for the compiled row templates function
             var perRowTemplateFnPromise = $q.defer();
             row.getRowTemplateFn = perRowTemplateFnPromise.promise;
 
-            // Get the row template
+            // Get the row templates
             gridUtil.getTemplate(row.rowTemplate)
               .then(function (template) {
-                // Compile the template
+                // Compile the templates
                 var rowTemplateFn = $compile(template);
                 
-                // Resolve the compiled template function promise
+                // Resolve the compiled templates function promise
                 perRowTemplateFnPromise.resolve(rowTemplateFn);
               },
               function (res) {
                 // Todo handle response error here?
-                throw new Error("Couldn't fetch/use row template '" + row.rowTemplate + "'");
+                throw new Error("Couldn't fetch/use row templates '" + row.rowTemplate + "'");
               });
           }
 
@@ -10601,11 +10601,11 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
      * @ngdoc method
      * @name getTemplate
      * @methodOf ui.grid.service:GridUtil
-     * @description Get's template from cache / element / url
+     * @description Get's templates from cache / element / url
      *
-     * @param {string|element|promise} Either a string representing the template id, a string representing the template url,
-     *   an jQuery/Angualr element, or a promise that returns the template contents to use.
-     * @returns {object} a promise resolving to template contents
+     * @param {string|element|promise} Either a string representing the templates id, a string representing the templates url,
+     *   an jQuery/Angualr element, or a promise that returns the templates contents to use.
+     * @returns {object} a promise resolving to templates contents
      *
      * @example
      <pre>
@@ -10615,17 +10615,17 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
      </pre>
      */
     getTemplate: function (template) {
-      // Try to fetch the template out of the templateCache
+      // Try to fetch the templates out of the templateCache
       if ($templateCache.get(template)) {
         return s.postProcessTemplate($templateCache.get(template));
       }
 
-      // See if the template is itself a promise
+      // See if the templates is itself a promise
       if (template.hasOwnProperty('then')) {
         return template.then(s.postProcessTemplate);
       }
 
-      // If the template is an element, return the element
+      // If the templates is an element, return the element
       try {
         if (angular.element(template).length > 0) {
           return $q.when(template).then(s.postProcessTemplate);
@@ -10637,7 +10637,7 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
 
       s.logDebug('fetching url', template);
 
-      // Default to trying to fetch the template as a url with $http
+      // Default to trying to fetch the templates as a url with $http
       return $http({ method: 'GET', url: template})
         .then(
           function (result) {
@@ -10647,7 +10647,7 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
             return templateHtml;
           },
           function (err) {
-            throw new Error("Could not get template " + template + ": " + err);
+            throw new Error("Could not get templates " + template + ": " + err);
           }
         )
         .then(s.postProcessTemplate);
@@ -10658,7 +10658,7 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
       var startSym = $interpolate.startSymbol(),
           endSym = $interpolate.endSymbol();
 
-      // If either of the interpolation symbols have been changed, we need to alter this template
+      // If either of the interpolation symbols have been changed, we need to alter this templates
       if (startSym !== '{{' || endSym !== '}}') {
         template = template.replace(/\{\{/g, startSym);
         template = template.replace(/\}\}/g, endSym);
@@ -14952,7 +14952,7 @@ module.filter('px', function() {
    */
   module.constant('uiGridEditConstants', {
     EDITABLE_CELL_TEMPLATE: /EDITABLE_CELL_TEMPLATE/g,
-    //must be lowercase because template bulder converts to lower
+    //must be lowercase because templates bulder converts to lower
     EDITABLE_CELL_DIRECTIVE: /editable_cell_directive/g,
     events: {
       BEGIN_CELL_EDIT: 'uiGridEventBeginCellEdit',
@@ -15143,7 +15143,7 @@ module.filter('px', function() {
            *  @ngdoc object
            *  @name editableCellTemplate
            *  @propertyOf  ui.grid.edit.api:ColumnDef
-           *  @description cell template to be used when editing this column. Can be Url or text template
+           *  @description cell templates to be used when editing this column. Can be Url or text templates
            *  <br/>Defaults to gridOptions.editableCellTemplate
            */
           if (colDef.enableCellEdit) {
@@ -16237,7 +16237,7 @@ module.filter('px', function() {
          *  @ngdoc object
          *  @name expandableRowTemplate
          *  @propertyOf  ui.grid.expandable.api:GridOptions
-         *  @description Mandatory. The template for your expanded row
+         *  @description Mandatory. The templates for your expanded row
          *  @example
          *  <pre>
          *    $scope.gridOptions = {
@@ -16495,7 +16495,7 @@ module.filter('px', function() {
   /**
    *  @ngdoc directive
    *  @name ui.grid.expandable.directive:uiGridExpandableRow
-   *  @description directive to render the expandable row template
+   *  @description directive to render the expandable row templates
    */
   module.directive('uiGridExpandableRow',
   ['uiGridExpandableService', '$timeout', '$compile', 'uiGridConstants','gridUtil','$interval', '$log',
@@ -16599,7 +16599,7 @@ module.filter('px', function() {
    *  @ngdoc directive
    *  @name ui.grid.expandable.directive:uiGridViewport
    *  @description stacks on the uiGridViewport directive to append the expandable row html elements to the
-   *  default gridRow template
+   *  default gridRow templates
    */
   module.directive('uiGridViewport',
     ['$compile', 'gridUtil', '$templateCache',
@@ -21179,7 +21179,7 @@ module.filter('px', function() {
            * @ngdoc property
            * @name paginationTemplate
            * @propertyOf ui.grid.pagination.api:GridOptions
-           * @description A custom template for the pager, defaults to `ui-grid/pagination`
+           * @description A custom templates for the pager, defaults to `ui-grid/pagination`
            */
           if (gridUtil.isNullOrUndefined(gridOptions.paginationTemplate)) {
             gridOptions.paginationTemplate = 'ui-grid/pagination';
@@ -26609,7 +26609,7 @@ angular.module('ui.grid').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('ui-grid/uiGridMenu',
-    "<div class=\"ui-grid-menu\" ng-if=\"shown\"><div class=\"ui-grid-menu-mid\" ng-show=\"shownMid\"><div class=\"ui-grid-menu-inner\"><button type=\"button\" ng-focus=\"focus=true\" ng-blur=\"focus=false\" class=\"ui-grid-menu-close-button\" ng-class=\"{'ui-grid-sr-only': (!focus)}\"><i class=\"ui-grid-icon-cancel\" ui-grid-one-bind-aria-label=\"i18n.close\"></i></button><ul role=\"menu\" class=\"ui-grid-menu-items\"><li ng-repeat=\"item in menuItems\" role=\"menuitem\" ui-grid-menu-item ui-grid-one-bind-id=\"'menuitem-'+$index\" action=\"item.action\" name=\"item.title\" active=\"item.active\" icon=\"item.icon\" shown=\"item.shown\" context=\"item.context\" template-url=\"item.templateUrl\" leave-open=\"item.leaveOpen\" screen-reader-only=\"item.screenReaderOnly\"></li></ul></div></div></div>"
+    "<div class=\"ui-grid-menu\" ng-if=\"shown\"><div class=\"ui-grid-menu-mid\" ng-show=\"shownMid\"><div class=\"ui-grid-menu-inner\"><button type=\"button\" ng-focus=\"focus=true\" ng-blur=\"focus=false\" class=\"ui-grid-menu-close-button\" ng-class=\"{'ui-grid-sr-only': (!focus)}\"><i class=\"ui-grid-icon-cancel\" ui-grid-one-bind-aria-label=\"i18n.close\"></i></button><ul role=\"menu\" class=\"ui-grid-menu-items\"><li ng-repeat=\"item in menuItems\" role=\"menuitem\" ui-grid-menu-item ui-grid-one-bind-id=\"'menuitem-'+$index\" action=\"item.action\" name=\"item.title\" active=\"item.active\" icon=\"item.icon\" shown=\"item.shown\" context=\"item.context\" templates-url=\"item.templateUrl\" leave-open=\"item.leaveOpen\" screen-reader-only=\"item.screenReaderOnly\"></li></ul></div></div></div>"
   );
 
 
