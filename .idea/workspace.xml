@@ -1,7 +1,479 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a40e8a6d-3696-45d0-a661-e04d6a97d24b" name="Default" comment="" />
+    <list default="true" id="a40e8a6d-3696-45d0-a661-e04d6a97d24b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/CHANGELOG.md" afterPath="$PROJECT_DIR$/bower_components/angular-material/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/README.md" afterPath="$PROJECT_DIR$/bower_components/angular-material/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/service/alert-service.js" afterPath="$PROJECT_DIR$/app/js/service/alert-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material-mocks.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.layouts.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.layouts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.layouts.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.layouts.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/angular-material.scss" afterPath="$PROJECT_DIR$/bower_components/angular-material/angular-material.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/bower_components/angular-messages/angular-messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/backdrop/backdrop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/autocomplete/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/backdrop/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/bottomSheet/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/button/button.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/button/button.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/card/card.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/card/card.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/checkbox/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/chips/chips.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/chips/chips.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/content/content.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/content/content.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/core/core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/core/core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/datepicker/datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/datepicker/datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/dialog/dialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/dialog/dialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/divider/divider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/divider/divider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabActions/fabActions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/gridList/gridList.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/gridList/gridList.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/icon/icon.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/icon/icon.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-aula-7-1.html" afterPath="$PROJECT_DIR$/index-aula-7-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/index-controller-7.js" afterPath="$PROJECT_DIR$/app/js/index-controller-7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/index-controller.js" afterPath="$PROJECT_DIR$/app/js/index-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/input/input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/input/input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/list/list.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/list/list.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menu/menu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menu/menu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/menuBar/menuBar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/menuBar/menuBar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-material/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projetosan.iml" afterPath="$PROJECT_DIR$/.idea/projetosan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/radioButton/radioButton.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/select/select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/select/select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sidenav/sidenav.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/slider/slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/slider/slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/sticky/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/sticky/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/subheader/subheader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/subheader/subheader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/swipe/swipe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/swipe/swipe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/switch/switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/switch/switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tabs/tabs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tabs/tabs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toast/toast.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toast/toast.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/toolbar/toolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/tooltip/tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-ui-grid/ui-grid.js" afterPath="$PROJECT_DIR$/bower_components/angular-ui-grid/ui-grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Projetosan.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +493,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index-controller-7.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/js/index-controller-7.js">
+      <file leaf-file-name="index-controller-11.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/index-controller-11.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1827957">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-aula-7-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index-aula-7-1.html">
+      <file leaf-file-name="crud.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3846154">
-              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crud.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro-pessoa.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro-pessoa-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4934037">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input-text.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input-text.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-aula-11-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-aula-11-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -47,31 +579,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Html5" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/js/index-controller.js" />
-        <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/app/js/index-controller-2.js" />
-        <option value="$PROJECT_DIR$/index3.html" />
-        <option value="$PROJECT_DIR$/app/css/media-queries.css" />
-        <option value="$PROJECT_DIR$/index4.html" />
-        <option value="$PROJECT_DIR$/index5.html" />
-        <option value="$PROJECT_DIR$/app/js/index-controller-3.js" />
-        <option value="$PROJECT_DIR$/app/template/mensagens.html" />
-        <option value="$PROJECT_DIR$/index-aula-4-1.html" />
         <option value="$PROJECT_DIR$/app/js/index-controller-4.js" />
         <option value="$PROJECT_DIR$/index-aula-5-1.html" />
         <option value="$PROJECT_DIR$/app/js/filters/maiusculo-filter.js" />
-        <option value="$PROJECT_DIR$/app/js/service/alert-service.js" />
         <option value="$PROJECT_DIR$/app/js/index-controller-5.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index-aula-6-1.html" />
         <option value="$PROJECT_DIR$/app/js/index-controller-6.js" />
         <option value="$PROJECT_DIR$/bower_components/index-aula-7-1.html" />
@@ -80,19 +603,95 @@
         <option value="$PROJECT_DIR$/app/template/cell-template-btn-excluir.html" />
         <option value="$PROJECT_DIR$/app/templates/row-templates.html" />
         <option value="vm:67" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/templates/cell-template-btn-opcoes.html" />
         <option value="$PROJECT_DIR$/index-aula-8-1.html" />
         <option value="$PROJECT_DIR$/app/js/index-controller-8.js" />
-        <option value="$PROJECT_DIR$/index-aula-7-1.html" />
-        <option value="$PROJECT_DIR$/app/js/index-controller-7.js" />
         <option value="$PROJECT_DIR$/app/templates/cell-template-btn-excluir.html" />
         <option value="$PROJECT_DIR$/app/templates/cell-template.html" />
         <option value="$PROJECT_DIR$/app/templates/row-template.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/index-aula-7-1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/js/index-controller-7.js" />
+        <option value="$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa.html" />
+        <option value="$PROJECT_DIR$/app/views/pessoa/pessoa-service.js" />
+        <option value="$PROJECT_DIR$/app/views/produto/cadastro-produto.html" />
+        <option value="$PROJECT_DIR$/app/views/produto/pesquisa-produto.html" />
+        <option value="$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa.html" />
+        <option value="$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa-controller.js" />
+        <option value="$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa-controller.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index6.html" />
+        <option value="$PROJECT_DIR$/jshint" />
+        <option value="$PROJECT_DIR$/.jshintrc" />
+        <option value="$PROJECT_DIR$/app/js/service/alert-service.js" />
+        <option value="$PROJECT_DIR$/app/js/service/teste.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directivas/primeira-directiva/primeira-directiva.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directivas/input-text/input-text.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directivas/input-text/input-text.html" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/primeira-directiva/primeira-directiva.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/input-text/input-text.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/input-text/input-text.html" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/crud/crud.html" />
+        <option value="$PROJECT_DIR$/app/views/home.html" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/crud/crud.js" />
+        <option value="$PROJECT_DIR$/index-aula-11-1.html" />
+        <option value="$PROJECT_DIR$/index-aula-11-2.html" />
+        <option value="$PROJECT_DIR$/app/js/app-config.js" />
+        <option value="$PROJECT_DIR$/app/js/index-controller.js" />
+        <option value="$PROJECT_DIR$/app/js/index-controller-9.js" />
+        <option value="$PROJECT_DIR$/app/js/index-controller-11.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBowerSettings">
+    <exe-path>C:\Users\Aluno\AppData\Roaming\npm\bower.cmd</exe-path>
+    <config-path>C:\mls\projetosan\bower.json</config-path>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="build" info="Alias for &quot;clean:app&quot;, &quot;copy&quot;, &quot;concat&quot;, &quot;clean:removerLixo&quot;, &quot;ngAnnotate&quot;, &quot;uglify&quot;, &quot;cssmin&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:app" />
+        <dependency value="copy" />
+        <dependency value="concat" />
+        <dependency value="clean:removerLixo" />
+        <dependency value="ngAnnotate" />
+        <dependency value="uglify" />
+        <dependency value="cssmin" />
+        <dependency value="htmlmin" />
+      </alias-task>
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true">
+        <target value="app" />
+        <target value="removerLixo" />
+      </core-task>
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="appJs" />
+        <target value="appCss" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="app" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="app" />
+      </core-task>
+      <core-task name="jshint" info="Validate files with JSHint." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/tasks/jshint.js" multi="true">
+        <target value="app" />
+      </core-task>
+      <core-task name="ngAnnotate" info="Add, remove and rebuild AngularJS dependency injection annotations" file-path="$PROJECT_DIR$/node_modules/grunt-ng-annotate/tasks/ng-annotate.js" multi="true">
+        <target value="app" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="app" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="app" />
+      </core-task>
+    </gruntfile>
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -128,6 +727,21 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="projetosan">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,6 +757,134 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquitetura" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primeira-directiva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquitetura" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input-text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquitetura" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="produto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pessoa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,20 +919,23 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="projetosan">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projetosan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -199,14 +944,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="settings.editor.splitter.proportion" value="0.21645446" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,20 +965,20 @@
       <recent name="C:\mls\projetosan\app\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index-aula-7-1.html">
-    <configuration default="false" name="index4.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index4.html">
+  <component name="RunManager" selected="JavaScript Debug.index-aula-11-2.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index3.html">
+    <configuration default="false" name="index6.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index6.html">
       <method />
     </configuration>
-    <configuration default="false" name="index-aula-5-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index-aula-5-1.html">
+    <configuration default="false" name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="index-aula-6-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index-aula-6-1.html">
+    <configuration default="false" name="index-aula-11-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index-aula-11-1.html">
       <method />
     </configuration>
-    <configuration default="false" name="index-aula-7-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index-aula-7-1.html">
+    <configuration default="false" name="index-aula-11-2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projetosan/index-aula-11-2.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -263,6 +1010,13 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -272,20 +1026,31 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index3.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-5-1.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-6-1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-7-1.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-11-1.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-11-2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-7-1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-6-1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-5-1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index3.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-11-2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index-aula-11-1.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -302,47 +1067,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20163691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26339287" sideWeight="0.53071254" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26339287" sideWeight="0.46928746" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37201366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30546075" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25736433" sideWeight="0.3105263" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5201613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
@@ -360,251 +1117,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/js/index-controller.js</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/js/index-controller.js</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/js/index-controller.js</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/js/index-controller.js</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-aula-4-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/mensagens.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/media-queries.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9262295">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular-csp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4180328">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3251366">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.066308245">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29699248">
           <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39285713">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -636,32 +1157,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/service/alert-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-aula-6-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19172932">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-aula-5-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -680,49 +1179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5081522">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6871345">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller-8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092391305">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-aula-8-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9005848">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/cell-template-btn-excluir.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15977444">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-aula-7-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3846154">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09586466">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,14 +1204,292 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.287594">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3655914">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/index-controller-7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1827957">
+        <state vertical-scroll-proportion="0.48358864">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13225058">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pessoa/pessoa-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/produto/cadastro-produto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.512761">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-aula-6-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.18329467">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47921225">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5142232">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/produto/pesquisa-produto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15777262">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-aula-7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21113689">
+          <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053125">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/service/alert-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7894737">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54140127">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/service/teste.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13068181">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06938776">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/primeira-directiva/primeira-directiva.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.065891474">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032945737">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2437276">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-aula-8-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62606233">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-aula-11-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4353562">
+          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9472294">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3371105">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexPrimeiro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5439094">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-aula-11-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller-11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4934037">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

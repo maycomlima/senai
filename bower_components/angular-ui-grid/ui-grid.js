@@ -3253,7 +3253,7 @@ angular.module('ui.grid')
           ];
         }]);
       </file>
-      <file name="index.html">
+      <file name="indexPrimeiro.html">
         <div ng-controller="MainCtrl">
           <div ui-grid="{ data: data }"></div>
         </div>
@@ -10493,7 +10493,7 @@ module.service('gridUtil', ['$log', '$window', '$document', '$http', '$templateC
             };
           }]);
         </file>
-        <file name="index.html">
+        <file name="indexPrimeiro.html">
           <div ng-controller="MainCtrl">
             <strong>Column name:</strong> <input ng-model="name" />
             <br>
@@ -14409,7 +14409,7 @@ module.filter('px', function() {
       ];
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="{ data: data, columnDefs: columnDefs }" ui-grid-cellnav></div>
    </div>
@@ -15255,7 +15255,7 @@ module.filter('px', function() {
       ];
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="{ data: data, columnDefs: columnDefs }" ui-grid-edit></div>
    </div>
@@ -17854,7 +17854,7 @@ module.filter('px', function() {
       };
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="gridOptions" ui-grid-exporter></div>
    </div>
@@ -19108,7 +19108,7 @@ module.filter('px', function() {
       $scope.gridOptions = { columnDefs: $scope.columnDefs, data: $scope.data };
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="gridOptions" ui-grid-grouping></div>
    </div>
@@ -20394,7 +20394,7 @@ module.filter('px', function() {
       ];
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="{ data: data, columnDefs: columnDefs }" ui-grid-infinite-scroll="20"></div>
    </div>
@@ -20649,7 +20649,7 @@ module.filter('px', function() {
       height: 150px;
     }
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div class="grid" ui-grid="{ data: data, columnDefs: columnDefs }" ui-grid-move-columns></div>
    </div>
@@ -21244,7 +21244,7 @@ module.filter('px', function() {
        }
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="gridOptions" ui-grid-pagination></div>
    </div>
@@ -23679,7 +23679,7 @@ module.filter('px', function() {
       };
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="gridOptions" ui-grid-save-state></div>
    </div>
@@ -24329,7 +24329,7 @@ module.filter('px', function() {
       ];
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="{ data: data, columnDefs: columnDefs }" ui-grid-selection></div>
    </div>
@@ -26479,7 +26479,7 @@ module.filter('px', function() {
       $scope.gridOptions = { columnDefs: $scope.columnDefs, data: $scope.data };
     }]);
    </file>
-   <file name="index.html">
+   <file name="indexPrimeiro.html">
    <div ng-controller="MainCtrl">
    <div ui-grid="gridOptions" ui-grid-tree-view></div>
    </div>

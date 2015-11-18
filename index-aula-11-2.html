@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+    <script src="bower_components/oclazyload/dist/ocLazyLoad.js"></script>
+
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="app/js/app-config.js"></script>
+    <script src="app/js/index-controller-11.js"></script>
+    <script src="app/js/service/alert-service.js"></script>
+
+    <script src="arquitetura/directives/primeira-directiva/primeira-directiva.js"></script>
+    <script src="arquitetura/directives/input-text/input-text.js"></script>
+    <script src="arquitetura/directives/crud/crud.js"></script>
+</head>
+<body ng-app="projetosan">
+
+<div ng-controller="IndexController" class="container-fluid">
+
+    <sm-crud titulo="Cadastro de Pessoa"
+             controller="PessoaController">
+        <div class="row">
+            <sn-input-text label="Nome"
+                           ng-model="entidade.nome"
+                           colspan="4">
+            </sn-input-text>
+            <sn-input-text label="Sobrenome"
+                           ng-model="entidade.sobrenome"
+                           colspan="4">
+            </sn-input-text>
+            <sn-input-text label="Idade"
+                           ng-model="entidade.idade"
+                           colspan="4">
+            </sn-input-text>
+        </div>
+    </sm-crud>
+</div>
+
+</body>
+</html>
